@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Glow Ring -->
+    <path
+        android:pathData="M54,54 m-28,0 a28,28 0 1,1 56,0 a28,28 0 1,1 -56,0"
+        android:strokeWidth="1.5"
+        android:strokeColor="#66D0BCFF"
+        android:fillColor="#00000000" />
+
+    <!-- Crystal Ball Base Stand -->
+    <path
+        android:pathData="M39,74 L69,74 L65,68 L43,68 Z"
+        android:fillColor="#FFE082" />
+    <path
+        android:pathData="M36,76 L72,76 L70,74 L38,74 Z"
+        android:fillColor="#D0BCFF" />
+
+    <!-- Crystal Orb -->
+    <path
+        android:pathData="M54,50 m-20,0 a20,20 0 1,1 40,0 a20,20 0 1,1 -40,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="32"
+                android:endX="66"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFF8E1" />
+                <item android:offset="0.3" android:color="#D0BCFF" />
+                <item android:offset="0.8" android:color="#6750A4" />
+                <item android:offset="1.0" android:color="#381E72" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Orb Inner Glow Specular -->
+    <path
+        android:pathData="M46,42 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"
+        android:fillColor="#88FFFFFF" />
+    <path
+        android:pathData="M44,40 m-2,0 a2,2 0 1,1 4,0 a2,2 0 1,1 -4,0"
+        android:fillColor="#FFFFFFFF" />
+
+    <!-- Mystic Sparkles / Stars -->
+    <!-- Top-Right Star -->
+    <path
+        android:pathData="M74,32 L75.5,35.5 L79,37 L75.5,38.5 L74,42 L72.5,38.5 L69,37 L72.5,35.5 Z"
+        android:fillColor="#FFE082" />
+    <!-- Top-Left Mini Star -->
+    <path
+        android:pathData="M33,35 L34,37 L36,38 L34,39 L33,41 L32,39 L30,38 L32,37 Z"
+        android:fillColor="#D0BCFF" />
+    <!-- Right Star -->
+    <path
+        android:pathData="M78,56 L79,58 L81,59 L79,60 L78,62 L77,60 L75,59 L77,58 Z"
+        android:fillColor="#FFE082" />
+</vector>

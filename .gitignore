@@ -1,0 +1,52 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+app/release/
+
+# Files for the ART/DALVIK VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+app/build/
+
+# Gradle files
+.gradle/
+.kotlin/
+gradle-app.setting
+
+# Local configuration files
+local.properties
+.env
+.env.local
+!.env.example
+
+# IDE & Editor state
+.idea/
+*.iml
+.DS_Store
+
+# Keystores and Certificates
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+!debug.keystore
+
+# Diagnostic & Temporary logs
+mwa_*.txt
+mwa_broad.txt
+mwa_diagnostics.txt
+wallet_back_test.txt
+*.log
+*.tmp
+*.bak
