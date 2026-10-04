@@ -49,7 +49,7 @@ Fortune reading is part of a long tradition of Asian and Oriental divination pra
 MTK Fortune Teller integrates Solana Web3 functionality at multiple levels:
 
 * **Wallet Connection (MWA):** Uses `com.solana.mobilewalletadapter.clientlib` to connect seamlessly with installed Solana mobile wallets (e.g., Phantom, Solflare).
-* **SPL Memo On-Chain Proof:** Encodes fortune digest, question ID, timestamp, and digit choice into an SPL Memo program instruction (`MemoSq2gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr`).
+* **SPL Memo On-Chain Proof:** Encodes fortune digest, question ID, timestamp, and digit choice into an SPL Memo program instruction (`MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr`).
 * **Reconciliation Engine:** Asynchronous RPC status checking ensures pending transactions are verified on Devnet even during network switches or app-backgrounding.
 
 ---
